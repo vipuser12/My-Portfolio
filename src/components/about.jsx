@@ -24,7 +24,7 @@ function About() {
                 Hire Me
               </a>
               <a
-                href="./public/My CV (1).pdf"
+                href="/My CV (1).pdf"
                 download="Mohamed_Ahmed_CV.pdf"
                 className="inline-flex items-center justify-center border-2 border-gray-700 text-gray-300 hover:border-indigo-500 hover:text-white font-bold py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg"
               >
