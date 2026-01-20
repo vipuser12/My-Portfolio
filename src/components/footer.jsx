@@ -9,7 +9,6 @@ function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
 
-          {/* الجانب الأيسر: اسمك أو اللوجو */}
           <div className="text-center md:text-left">
             <h2 className="text-2xl font-bold tracking-tighter hover:text-indigo-500 transition-colors cursor-default">
               MOHAMED AHMED
@@ -28,7 +27,6 @@ function Footer() {
             </a>
           </div>
 
-          {/* الجانب : الحقوق */}
           <div className="text-center md:text-right">
             <p className="text-gray-500 text-sm">
               &copy {currentYear} All Rights Reserved.
