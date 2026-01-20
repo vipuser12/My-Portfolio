@@ -15,7 +15,7 @@ function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="group bg-black/40 border border-gray-800 rounded-2xl overflow-hidden hover:border-indigo-500 transition-all duration-500 flex flex-col h-full shadow-2xl backdrop-blur-sm"
+              className="group bg-black/40 border border-gray-800 rounded-2xl overflow-hidden hover:border-indigo-500 transition-all duration-500 flex flex-col h-full shadow-2xl backdrop-blur-sm bg-white/5 backdrop-blur-md border border-white/10 shadow-xl"
             >
               <div className="p-8 grow">
                 <div className="flex items-center justify-between mb-6">

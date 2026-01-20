@@ -1,12 +1,23 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-
-
+import Typewriter from 'typewriter-effect';
 function Hero() {
   return (
     <div>
       <section id="home" className="bg-linear-to-b from-black via-black to-gray-800 w-full h-screen text-white flex items-center justify-center">
         <div className="text-center px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 flex flex-col gap-6">HELLO WORLD,<span>I'M MOHAMED AHMED</span></h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 flex flex-col gap-6">HELLO WORLD,
+            <span>
+              <Typewriter
+                options={{
+                  strings: ["I'M MOHAMED AHMED", "I'M A FRONTEND DEVELOPER", "I BUILD REACT APPS"],
+                  autoStart: true,
+                  loop: true,
+                  delay: 70,
+                  deleteSpeed: 50,
+                  cursor: '|'
+                }}
+              />
+            </span></h1>
           <p className="text-lg md:text-2xl mb-8">A passionate Frontend Developer.</p>
           <a href="#projects"
             className="border-2 border-indigo-500 text-indigo-500 hover:bg-indigo-500 hover:text-white font-bold py-3 px-8 rounded-full transition-all duration-300 shadow-[0_0_15px_rgba(99,102,241,0.3)]">
