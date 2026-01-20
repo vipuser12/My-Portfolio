@@ -1,16 +1,34 @@
-# React + Vite
+# 🚀 Modern Interactive Portfolio (React 19)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, visually stunning portfolio built with the latest web technologies. Featuring smooth animations, custom interactions, and a professional dark-themed UI.
 
-Currently, two official plugins are available:
+![Portfolio Preview](https://via.placeholder.com/800x400?text=Portfolio+Live+Preview)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Pro Features
 
-## React Compiler
+* **Next-Gen Tech Stack:** Built with **React 19** and **Vite 7** for lightning-fast performance.
+* **Custom Smooth Cursor:** A physics-based custom cursor developed with **Framer Motion** (Spring Physics).
+* **Tailwind CSS v4:** Using the latest Tailwind features for cutting-edge styling and performance.
+* **Smart Scroll Reveal:** Sections animate into view as you scroll using Framer Motion's `whileInView`.
+* **Typewriter Interaction:** Dynamic hero section titles using `typewriter-effect`.
+* **Fully Responsive:** Seamless experience across mobile, tablet, and desktop.
+* **Optimized Deployment:** Configured specifically for seamless builds on **Vercel**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+| Technology | Usage |
+| :--- | :--- |
+| **React 19** | Core Framework |
+| **Tailwind CSS v4** | Modern Styling Engine |
+| **Framer Motion** | Pro Animations & Physics |
+| **Vite** | Next-Generation Build Tool |
+| **React Icons** | Premium Icon Sets |
+| **Formspree** | Contact Form Integration |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Local Development
+
+Follow these steps to get the project running on your machine:
+
+1. **Clone the Repo:**
+   ```bash
+   git clone [https://github.com/vipuser12/portfolio.git](https://github.com/vipuser12/portfolio.git)
