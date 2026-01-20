@@ -4,7 +4,6 @@ import { motion, useSpring } from 'framer-motion';
 const CustomCursor = () => {
   const [isHovered, setIsHovered] = useState(false);
 
-  // إعدادات الـ Spring Physics (دي اللي بتدي النعومة)
   const springConfig = { damping: 25, stiffness: 200 };
   const mouseX = useSpring(0, springConfig);
   const mouseY = useSpring(0, springConfig);
@@ -34,13 +33,11 @@ const CustomCursor = () => {
 
   return (
     <>
-      {/* 1. النقطة المركزية - سريعة جداً */}
       <motion.div
         className="fixed top-0 left-0 w-1.5 h-1.5 bg-indigo-500 rounded-full pointer-events-none z-[9999]"
         style={{ x: mouseX, y: mouseY, translateX: "-50%", translateY: "-50%" }}
       />
 
-      {/* 2. الدائرة الخارجية - بتلحق بنعومة (Spring Motion) */}
       <motion.div
         className="fixed top-0 left-0 border border-indigo-500 rounded-full pointer-events-none z-[9998]"
         animate={{
