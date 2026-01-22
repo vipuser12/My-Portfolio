@@ -93,6 +93,8 @@ export const projects = [
     tech: ["React.js", "React Router Dom", "SPA Architecture", "Dynamic Routing"],
     description: "The core architecture of a scalable e-commerce platform. Implemented dynamic routing for product details, protected checkout paths, and a centralized layout structure. This setup ensures seamless navigation without page reloads, improving user experience and performance.",
     date: "December 2025",
+    githubLink: "https://github.com/vipuser12/React-ECommerce-",
+    liveLink: "https://react-ecommerce-alpha-livid.vercel.app/",
     category: "Architecture / React",
     icon: <SiReact size={24} className="text-blue-400" />
   },
