@@ -1,10 +1,10 @@
 import { 
-  FaGithub, FaReact, FaNodeJs, FaCode, FaHtml5, FaCss3Alt, FaFigma 
+  FaGithub, FaReact, FaNodeJs, FaCode, FaHtml5, FaCss3Alt, FaFigma, FaDatabase 
 } from 'react-icons/fa';
 
 import { 
   SiExpress, SiMongodb, SiTailwindcss, SiJavascript, SiBootstrap, 
-  SiDotnet, SiMicrosoftsqlserver 
+  SiDotnet
 } from 'react-icons/si';
 
 import { TbBrandCSharp } from 'react-icons/tb';
