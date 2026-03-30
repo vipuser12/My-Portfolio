@@ -11,7 +11,9 @@ export const navbar = [
 export const About = [
   {
     name: 'About',
-    description: 'I am a Front-End Developer with a focus on building functional, responsive, and user-friendly web applications. Coming from an educational background, I bring a unique perspective to software development—prioritizing clarity, structured thinking, and effective communication.My technical toolkit includes React, JavaScript, and Tailwind CSS. I specialize in developing clean, component-based architectures and implementing Mobile- First designs that work seamlessly across all devices. I am passionate about writing maintainable code and ensuring a smooth user experience, from performance optimization to thoughtful UI details like Dark Mode and interactive elements. I am currently looking for a professional environment where I can contribute my technical skills and continue to grow as part of a collaborative team. Let’s connect if you are looking for a dedicated developer who values quality and precision.',
+    description: "I am a Full-Stack Developer dedicated to building robust, scalable, and user-centric web applications. With a strong foundation in both Front-End (React, JavaScript, Tailwind CSS) and Back-End (.NET Core, Web API, SQL Server), I bridge the gap between seamless user interfaces and powerful server-side logic.Coming from an educational background, I prioritize structured thinking, clean code, and effective communication. I specialize in developing component-based architectures and implementing 'Clean Architecture' principles in .NET to ensure maintainability and performance. Whether it's crafting responsive Mobile-First designs or architecting efficient Database schemas with Entity Framework, I focus on delivering high-quality, end-to-end solutions. I am passionate about solving complex problems and am currently looking for a professional environment to contribute my technical expertise and continue growing within a collaborative team. Let’s build something impactful together!",
+
+    
     skills: [
       // 1. Core Front-End Technologies
       { name: 'React', icon: <FaReact className="text-[#61DAFB]" /> },
@@ -25,6 +27,11 @@ export const About = [
       { name: 'Node.js', icon: <FaNodeJs className="text-[#339933]" /> },
       { name: 'Express.js', icon: <SiExpress className="text-white" /> },
       { name: 'MongoDB', icon: <SiMongodb className="text-[#47A248]" /> },
+      { name: '.NET Core', icon: <SiDotnet className="text-[#512BD4]" /> },
+      { name: 'ASP.NET Core MVC', icon: <TbBrandCSharp className="text-[#239120]" /> }, 
+      { name: 'Entity Framework', icon: <SiDotnet className="text-[#512BD4]" /> }, 
+      { name: 'LINQ', icon: <SiCsharp className="text-[#239120]" /> }, 
+      { name: 'SQL Server', icon: <SiMicrosoftsqlserver className="text-[#CC2927]" /> },
 
       // 4. Tools & Workflow
       { name: 'Git & GitHub', icon: <FaGithub className="text-white" /> },
