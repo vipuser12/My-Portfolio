@@ -9,7 +9,6 @@ import {
 
 import { TbBrandCSharp } from 'react-icons/tb';
 
-
 export const navbar = [
   { name: 'Home', link: '#home' },
   { name: 'About', link: '#about' },
@@ -20,8 +19,7 @@ export const navbar = [
 export const About = [
   {
     name: 'About',
-    description: "I am a Full-Stack Developer dedicated to building robust, scalable, and user-centric web applications. With a strong foundation in both Front-End (React, JavaScript, Tailwind CSS) and Back-End (.NET Core, Web API, SQL Server), I bridge the gap between seamless user interfaces and powerful server-side logic.Coming from an educational background, I prioritize structured thinking, clean code, and effective communication. I specialize in developing component-based architectures and implementing 'Clean Architecture' principles in .NET to ensure maintainability and performance. Whether it's crafting responsive Mobile-First designs or architecting efficient Database schemas with Entity Framework, I focus on delivering high-quality, end-to-end solutions. I am passionate about solving complex problems and am currently looking for a professional environment to contribute my technical expertise and continue growing within a collaborative team. Let’s build something impactful together!",
-
+    description: "I am a Full-Stack Developer dedicated to building robust, scalable, and user-centric web applications. With a strong foundation in both Front-End (React, JavaScript, Tailwind CSS) and Back-End (.NET Core, Web API, SQL Server), I bridge the gap between seamless user interfaces and powerful server-side logic. Coming from an educational background, I prioritize structured thinking, clean code, and effective communication. I specialize in developing component-based architectures and implementing 'Clean Architecture' principles in .NET to ensure maintainability and performance. Whether it's crafting responsive Mobile-First designs or architecting efficient Database schemas with Entity Framework, I focus on delivering high-quality, end-to-end solutions. I am passionate about solving complex problems and am currently looking for a professional environment to contribute my technical expertise and continue growing within a collaborative team. Let’s build something impactful together!",
     
     skills: [
       // 1. Core Front-End Technologies
@@ -32,7 +30,7 @@ export const About = [
       { name: 'CSS3', icon: <FaCss3Alt className="text-[#1572B6]" /> },
       { name: 'Bootstrap', icon: <SiBootstrap className="text-[#7952B3]" /> },
 
-      // 3. Back-End & Database
+      // 2. Back-End & Database
       { name: 'Node.js', icon: <FaNodeJs className="text-[#339933]" /> },
       { name: 'Express.js', icon: <SiExpress className="text-white" /> },
       { name: 'MongoDB', icon: <SiMongodb className="text-[#47A248]" /> },
@@ -42,11 +40,11 @@ export const About = [
       { name: 'LINQ', icon: <SiCsharp className="text-[#239120]" /> }, 
       { name: 'SQL Server', icon: <SiMicrosoftsqlserver className="text-[#CC2927]" /> },
 
-      // 4. Tools & Workflow
+      // 3. Tools & Workflow
       { name: 'Git & GitHub', icon: <FaGithub className="text-white" /> },
       { name: 'Figma', icon: <FaFigma className="text-[#F24E1E]" /> },
 
-      // 5. Soft Skills
+      // 4. Soft Skills
       { name: 'Problem-Solving', icon: <FaCode className="text-gray-400" /> },
       { name: 'Communication', icon: <FaCode className="text-gray-400" /> },
     ],
@@ -92,7 +90,7 @@ export const projects = [
     githubLink: "https://github.com/vipuser12/perfume-store",
     liveLink: "https://vipuser12.github.io/perfume-store/",
     category: "Landing Page",
-    icon: <SiHtml5 size={24} className="text-orange-500" />
+    icon: <FaHtml5 size={24} className="text-orange-500" />
   },
   {
     title: "Capital Shop - Modern E-commerce UI",
@@ -102,7 +100,7 @@ export const projects = [
     githubLink: "https://github.com/vipuser12/Fashion-Store",
     liveLink: "https://vipuser12.github.io/Fashion-Store/",
     category: "E-commerce",
-    icon: <SiHtml5 size={24} className="text-orange-500" />
+    icon: <FaHtml5 size={24} className="text-orange-500" />
   },
   {
     title: "Full-Stack E-commerce Architecture",
