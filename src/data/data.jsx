@@ -38,8 +38,8 @@ export const About = [
       { name: 'ASP.NET Core MVC', icon: <TbBrandCSharp className="text-[#239120]" /> }, 
       { name: 'Entity Framework', icon: <SiDotnet className="text-[#512BD4]" /> }, 
       { name: 'LINQ', icon: <TbBrandCSharp className="text-[#239120]" /> },
-      { name: 'SQL Server', icon: <SiMicrosoftsqlserver className="text-[#CC2927]" /> },
-
+      { name: 'SQL Server', icon: <FaDatabase className="text-[#CC2927]" /> },
+      
       // 3. Tools & Workflow
       { name: 'Git & GitHub', icon: <FaGithub className="text-white" /> },
       { name: 'Figma', icon: <FaFigma className="text-[#F24E1E]" /> },
