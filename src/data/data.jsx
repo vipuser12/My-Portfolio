@@ -4,7 +4,7 @@ import {
 
 import { 
   SiExpress, SiMongodb, SiTailwindcss, SiJavascript, SiBootstrap, 
-  SiDotnet, SiMicrosoftsqlserver, SiCsharp 
+  SiDotnet, SiMicrosoftsqlserver 
 } from 'react-icons/si';
 
 import { TbBrandCSharp } from 'react-icons/tb';
@@ -37,7 +37,7 @@ export const About = [
       { name: '.NET Core', icon: <SiDotnet className="text-[#512BD4]" /> },
       { name: 'ASP.NET Core MVC', icon: <TbBrandCSharp className="text-[#239120]" /> }, 
       { name: 'Entity Framework', icon: <SiDotnet className="text-[#512BD4]" /> }, 
-      { name: 'LINQ', icon: <SiCsharp className="text-[#239120]" /> }, 
+      { name: 'LINQ', icon: <TbBrandCSharp className="text-[#239120]" /> },
       { name: 'SQL Server', icon: <SiMicrosoftsqlserver className="text-[#CC2927]" /> },
 
       // 3. Tools & Workflow
