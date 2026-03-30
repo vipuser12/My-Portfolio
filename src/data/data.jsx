@@ -1,5 +1,24 @@
-import { FaGithub, FaReact, FaNodeJs, FaCode, FaHtml5, FaCss3Alt, FaFigma } from 'react-icons/fa';
-import { SiExpress, SiMongodb, SiTailwindcss, SiJavascript, SiBootstrap, SiReact, SiHtml5, SiDotnet, SiMicrosoftsqlserver, SiCsharp, } from 'react-icons/si';
+import { 
+  FaGithub, 
+  FaReact, 
+  FaNodeJs, 
+  FaCode, 
+  FaHtml5, 
+  FaCss3Alt, 
+  FaFigma 
+} from 'react-icons/fa';
+
+import { 
+  SiExpress, 
+  SiMongodb, 
+  SiTailwindcss, 
+  SiJavascript, 
+  SiBootstrap, 
+  SiDotnet, 
+  SiMicrosoftsqlserver, 
+  SiCsharp 
+} from 'react-icons/si';
+
 import { TbBrandCSharp } from 'react-icons/tb';
 
 
