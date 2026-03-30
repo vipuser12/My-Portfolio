@@ -1,5 +1,7 @@
 import { FaGithub, FaReact, FaNodeJs, FaCode, FaHtml5, FaCss3Alt, FaFigma } from 'react-icons/fa';
-import { SiExpress, SiMongodb, SiTailwindcss, SiJavascript, SiBootstrap, SiReact, SiHtml5 } from 'react-icons/si';
+import { SiExpress, SiMongodb, SiTailwindcss, SiJavascript, SiBootstrap, SiReact, SiHtml5, SiDotnet, SiMicrosoftsqlserver, SiCsharp, } from 'react-icons/si';
+import { TbBrandCSharp } from 'react-icons/tb';
+import { FaNodeJs } from 'react-icons/fa';
 
 export const navbar = [
   { name: 'Home', link: '#home' },
