@@ -112,6 +112,6 @@ export const projects = [
     githubLink: "https://github.com/vipuser12/React-ECommerce-",
     liveLink: "https://react-ecommerce-alpha-livid.vercel.app/",
     category: "Architecture / React",
-    icon: <SiReact size={24} className="text-blue-400" />
+    icon: <FaReact size={24} className="text-blue-400" />
   },
 ];
